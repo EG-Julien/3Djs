@@ -1,4 +1,4 @@
-# 3Djs
+# [3Djs](https://eg-julien.github.io/3Djs/)
 A simple way to render 3D graphics using plotly. Version Canary.
 
 
