@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>3Djs</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/semantic.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <span id="isloading"></span>
+    <div class="ui container">
+        <h1 class="ui">3Djs <small>A simple way to render 3D graphics using plotly</small></h1>
+
+        <br>
+        <div style="text-align: center;" class="loading"><h2>Loading ...</h2></div>
+        <br>
+        <div class="center">
+            <button class="ui inverted button blue" id="next">Next Frame</button>
+            <button class="ui inverted button brown" id="prev">Previous Frame</button>
+            <span style="margin-left: 20px;">Study a file : <input type="file" class="ui inverted button green" id="upload"/></span>
+        </div>
+        <div class="title" id="title"></div>
+        <div class="graphic">
+            <div class="ui">
+                <p></p>
+                <div class="ui active dimmer">
+                    <div class="ui loader"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="assets/js/mustache.js"></script>
+    <script src="assets/js/semantic.js"></script>
+    <script src="assets/js/app.js"></script>
+</html>
