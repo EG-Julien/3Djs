@@ -36,4 +36,4 @@ Example :
 }
 ```
 
-Then we can study a block formed of 2D hitogram that looks like 3D histogram.
+Then we can study a block formed of 2D histogram that looks like 3D histogram.
